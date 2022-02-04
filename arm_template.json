@@ -4,12 +4,12 @@
     "parameters": {
         "factoryName": {
             "type": "string",
-            "metadata": "Data Factory name",
-            "defaultValue": "ze-data-factory-from-hell"
+            "metadata": {
+                "description": "Data Factory name"
+            }
         },
         "trigger_properties_typeProperties_scope": {
-            "type": "string",
-            "defaultValue": "/subscriptions/19b9fa64-06a1-4489-9767-87407a01a43a/resourceGroups/storage-account/providers/Microsoft.Storage/storageAccounts/astorageforadf"
+            "type": "string"
         }
     },
     "variables": {
