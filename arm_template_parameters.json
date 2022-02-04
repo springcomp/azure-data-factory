@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "ze-data-factory-from-hell"
+        },
+        "trigger_properties_typeProperties_scope": {
+            "value": "/subscriptions/19b9fa64-06a1-4489-9767-87407a01a43a/resourceGroups/storage-account/providers/Microsoft.Storage/storageAccounts/astorageforadf"
+        }
+    }
+}
